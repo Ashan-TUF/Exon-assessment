@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "TitilliumWeb-Bold";
+    src: url(fonts/TitilliumWeb-Bold.ttf);
+  }
+  @font-face {
+    font-family: "TitilliumWeb-Light";
+    src: url(fonts/TitilliumWeb-Light.ttf);
+  }
+.footer-bg{
+    background-color: #2A2A2E;
+}
+.font12 {
+    font-family: "TitilliumWeb-Bold";
+    font-size: 12px;
+    letter-spacing: 6px;
+  }
+  .span1 {
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    opacity: 0.2;
+    text-transform: uppercase;
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-top: 8%;
+    margin-left: -50px;
+  }
+  .hr1 {
+    border-bottom: dotted 1px #000;
+  }
+  .input1 {
+    /* opacity: 0.5; */
+    background: hsla(0, 0%, 100%, 0.11) !important;
+    border: none;
+  }
+  /* .divmarg1 {
+    margin-top: 5%;
+    margin-left: 1000px;
+    position: absolute;
+  } */
+  .span2 {
+    /* font-size: 11px;
+    font-family: sans-serif; */
+    color: rgba(255, 255, 255, 0.71);
+  }
+  .inputfont1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.71);
+  }
+  .fs-7{
+    font-size: 12px;
+  }
+  /* .divmarg2 {
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 1300px;
+  } */
+  /* .inputfont { */
+    /* font-family: "TitilliumWeb-Bold"; */
+    /* font-size: 14px; */
+    /* font-weight: bold; */
+  /* } */

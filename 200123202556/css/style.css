@@ -1,0 +1,173 @@
+  /* Projects Counnter Styles Begin */
+:root {
+    --background: #FFFFFF;
+    --primary:#D1D1D1;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  
+  .container > .static-txt {
+    color:#010001;
+    font-size: 30px;
+  }
+  
+  .container >.dynamic-txt {
+    color: var(--primary);
+    font-size:40px;
+    height:50px;
+    line-height:50px;
+    overflow: hidden;
+    margin-left:0 0 0 10px;
+    padding-left: 15px;
+  }
+  .dynamic-txt > li {
+    list-style:none;
+    font-weight:500;
+    position: relative;
+    animation: slide 6s steps(2) infinite;
+  }
+  @keyframes slide{
+    100% {
+      top: -52px;
+    }
+  }
+  .dynamic-txt li span {
+    margin:5px 0;
+    line-height:40px;
+  }
+  
+  .dynamic-txt li span::after {
+    position:absolute;
+    content:'';
+    left:0;
+    height:100%;
+    width:100%;
+    line-height:50px;
+    background:var(--background);
+    border-left: 2px solid var(--primary);
+    animation: typing 3s steps(10) infinite;
+  }
+  
+  @keyframes typing {
+    40%,60% {left: calc(100% + 30px);}
+    100% {left:0;}
+  }
+  /* Projects Counnter Styles End */
+  /* Rotate Span Style Begin */
+  .span4 {
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    opacity: 0.2;
+    text-transform: uppercase;
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-top: 50px;
+    margin-left: -50px;
+  }
+   /* Rotate Span Style End */
+   /* Services Style Begin */
+   .brand_border .fa.fa-minus {
+    color: rgb(0, 0, 0);
+    font-size: 8px;
+    height: 2px;
+    background: #000000 none repeat scroll 0 0;
+    width: 100px;
+  }
+  /* Services Style End */
+  /* Testimonials Style Begin */
+  .span83 {
+    color: #000;
+    font-size: 180px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+  }
+  .font43 {
+     color: #000;
+    opacity: 0.5;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 80px;
+  }
+  .font23 {
+    font-size: 40px;
+    letter-spacing: 10px;
+  }
+  .font33 {
+    position: absolute;
+    color: #323A45;
+    margin-top: 120px;
+    margin-left: 50px;
+  }
+  .span63 {
+    color: #000;
+    opacity: 0.1;
+    font-size: 160px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+  }
+  .span73 {
+    color: #61CE70;
+  }
+  .ft{
+  color:#61CE70;
+  }
+  .span53 {
+    color: #000000;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    opacity: 0.2;
+    text-transform: uppercase;
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-top: 150px;
+    margin-left: -70px;
+  }
+
+  .testimonial blockquote {
+    margin: 10px 10px 0;
+    background: #efefef;
+    padding: 20px 60px;
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    font-style: italic;
+  }
+  .testimonial blockquote:before,
+  .testimonial blockquote:after {
+    content: "\201C";
+    position: absolute;
+    font-size: 80px;
+    line-height: 1;
+    color: #757f9a;
+    font-style: normal;
+  }
+  .testimonial blockquote:before {
+    top: 0;
+    left: 10px;
+  }
+  .testimonial blockquote:after {
+    content: "\201D";
+    right: 10px;
+    bottom: -0.5em;
+  }
+  .testimonial div {
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #efefef;
+    margin: 0 0 0 60px;
+  }
+  .testimonial p {
+    margin: 8px 0 0 20px;
+    text-align: left;
+    color: black;
+  }
+  
+   /* Testimonials Style End */
